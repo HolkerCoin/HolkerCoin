@@ -1,0 +1,32 @@
+/*
+  Palette provenance. This file is the only place colour literals may live.
+  Source: brand/LOGO HOLKERCOIN PNG.png (IHDR 2000x2000, 8-bit, colourtype 6 RGBA, fully opaque).
+  Method: k-means (k=4, farthest-point init, 25 iterations) over a 60k-pixel subsample; each centroid
+  was then snapped to the nearest real pixel in the full image. Coordinates are x,y from top-left.
+    bg      #000906  share 92.8%  pixel (0,0)
+    accent  #02f2ad  share  7.1%  pixel (1254,718)
+    mid     #0d926c  share  0.1%  pixel (498,1159)
+    deep    #084e3b  share  0.1%  pixel (691,1080)
+  scripts/gates.mjs re-reads each coordinate from the PNG and fails if the token differs.
+  The transparent export (brand/LOGO HOLKERCOIN PNG...png) holds the same accent: #01f3ad at (1261,718).
+  A stray pure-green cluster in that file is an edge-antialias artefact and is deliberately not used.
+*/
+:root {
+  --hk-bg: #000906;
+  --hk-accent: #02f2ad;
+  --hk-mid: #0d926c;
+  --hk-deep: #084e3b;
+
+  /* Derived only: mixes of the four sampled colours plus the CSS keywords white and transparent. */
+  --hk-text: color-mix(in srgb, var(--hk-accent) 6%, white);
+  --hk-text-muted: color-mix(in srgb, var(--hk-text) 64%, var(--hk-bg));
+  --hk-text-faint: color-mix(in srgb, var(--hk-text) 42%, var(--hk-bg));
+  --hk-surface: color-mix(in srgb, var(--hk-accent) 4%, var(--hk-bg));
+  --hk-surface-2: color-mix(in srgb, var(--hk-accent) 9%, var(--hk-bg));
+  --hk-border: color-mix(in srgb, var(--hk-mid) 30%, var(--hk-bg));
+  --hk-border-strong: color-mix(in srgb, var(--hk-mid) 60%, var(--hk-bg));
+  --hk-accent-soft: color-mix(in srgb, var(--hk-accent) 18%, transparent);
+  --hk-accent-glow: color-mix(in srgb, var(--hk-accent) 8%, transparent);
+  --hk-shade: color-mix(in srgb, var(--hk-bg) 72%, transparent);
+  --hk-on-accent: var(--hk-bg);
+}

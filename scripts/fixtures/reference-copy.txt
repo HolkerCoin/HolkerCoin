@@ -1,0 +1,225 @@
+<!DOCTYPE html>BunkerCoinLoading 3D visualizationHumanity's Resilience LayerBunkerCoin will be the first Layer 1 blockchain on radiowaves—a censorship-resistant network that operates fully independent from the internet. We anchor this groundbreaking tech with a network of physical safe havens, starting with the world's largest bunker.Buy NowTechnical WhitepaperCA: 8NCie...7pumpGitHubXTelegramCoinMarketCapHow It WorksBunkerCoin operates on shortwave radio signals, creating a truly decentralized layer 1 blockchain that functions without internet infrastructure.Radio Wave PropagationNodes communicate via shortwave radio with a range of 2,500-5,000 miles. Just 10-20 nodes can achieve global coverage.Hybrid ArchitectureWhile nodes communicate via radio, optional internet gateways allow regular users to interact with the chain using standard devices.True DecentralizationThe pinnacle of decentralization—zero dependency on ISPs, cloud providers, or any centralized infrastructure. Your assets, truly yours.Asset BridgeBridge assets from Solana and other chains. Once on BunkerCoin, they're protected from any internet-based failure, and stay usable in the event of a catastrophe.Built for CrisisWhen traditional infrastructure fails, BunkerCoin ensures your assets remain accessible—no matter the catastrophe.EMP AttacksHardened radio equipment can survive electromagnetic pulses that would destroy internet infrastructure.Internet BlackoutsAuthoritarian shutdowns and censorship can't stop radio waves from crossing borders.Natural DisastersWhen cell towers fall and cables break, shortwave radio continues to function.The resilience layer for when resilience matters most.The InceptionThe concept of a blockchain operating on radio waves was originated by Anatoly Yakovenko, Co-Founder of Solana. Since 2019, he's been sharing humorous thoughts about this idea, including a playful April Fools' 2024 technical abstract.View his posts here — a very entertaining read.A few excerpts from XToly, we 💚 you. And we'll turn the blockchain running on the ionosphere into reality!Building in the OpenBunkerCoin is committed to transparency and open-source development. Our code, our progress, and our community decisions are all public.Open SourceAll code is available on GitHub. Review, contribute, or fork.Community-Driven FutureBuilding towards decentralized governance where the community shapes our direction.Open ScienceWriting our technical papers in public, sharing research as it develops.Transparent ProgressLive explorer, public roadmap, and regular community updates.View on GitHub Join the NetworkMultiple ways to participate in building humanity's resilience layer.Run a NodeOperate radio hardware to strengthen the network and earn rewards.Coming SoonContributeJoin our Discord to connect with contributors. Raise issues and open PRs on GitHub!Join Discord →View GitHub →Join the CommunityParticipate in governance and help shape the future of resilience.Join Telegram →Disclaimer:
+BunkerCoin is a meme token created for entertainment and community engagement. It is not an investment opportunity, security, or real estate asset. Purchasing BunkerCoin involves high risk, including the potential total loss of your investment. Ownership of BunkerCoin does not grant rights to any property. BunkerCoin is the supporting community token of the Bunker ecosystem, rallying believers around the mission of building resilience. By purchasing BunkerCoin, you accept all associated risks and acknowledge its speculative nature.Copyright © 2025 - BunkerCoin. All Rights Reserved.Imprint / ContactPrivacy Policy
+Logo
+Click to copy contract address
+Radio Tower Blockchain Visualization
+EMP Protection
+Internet Blackout Protection
+Natural Disaster Protection
+Toly's first tweet about radio blockchain (2019)
+Toly's tweet about radio blockchain (2020)
+Toly's tweet about radio blockchain (2023)
+Technical Abstract April Fools 2024
+Toly quote repost about BunkerCoin
+Wen BLS grinder tweet tagging BunkerCoin (2024)
+Open Source Community
+Built on Solana
+relative px-4 py-2 rounded-md bg-bunker shadow-bunker-400/10 shadow-lg text-black
+w-full max-w-md aspect-square flex flex-col items-center justify-center
+w-6 h-6 text-neutral-500 animate-spin mb-2
+text-neutral-600 text-sm
+Loading 3D visualization
+jsx-36a889131753d436 absolute top-0 -z-10 h-screen w-full bg-black
+jsx-36a889131753d436 absolute bottom-0 h-[15%] w-full bg-gradient-to-t from-neutral-950 to-transparent
+jsx-36a889131753d436 container mx-auto px-4 sm:px-6 lg:px-8
+jsx-36a889131753d436 flex flex-col md:flex-row items-center justify-between pt-[12vh] md:pt-[16vh] gap-8 md:gap-12 px-4 md:px-0
+jsx-36a889131753d436 w-full md:w-1/2 relative aspect-square order-1 md:order-2
+jsx-36a889131753d436 md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left order-2 md:order-1
+jsx-36a889131753d436 text-4xl md:text-5xl lg:text-7xl font-bold
+jsx-36a889131753d436 text-bunker whitespace-nowrap
+jsx-36a889131753d436 text-lg mt-6 text-neutral-400 max-w-xl
+BunkerCoin will be the first Layer 1 blockchain on radiowaves—a censorship-resistant network that operates fully independent from the internet. We anchor this groundbreaking tech with a network of physical safe havens, starting with the world's largest bunker.
+jsx-36a889131753d436 flex items-center gap-x-4 mt-8 mb-2
+jsx-36a889131753d436 group flex items-center gap-x-2 px-4 py-2 rounded-md bg-neutral-800/50 backdrop-blur-md border border-neutral-700 text-white hover:border-neutral-600 transition-all duration-300
+Technical Whitepaper
+text-neutral-600 size-5 stroke-1 group-hover:text-neutral-500 transition-all duration-300
+jsx-36a889131753d436 mb-4
+jsx-36a889131753d436 mt-4 md:mt-1 text-md md:text-base text-neutral-500 hover:text-neutral-300 transition focus:outline-none select-none inline-flex items-center gap-1
+jsx-36a889131753d436 flex justify-center md:justify-start gap-x-6 mb-8 mt-4
+jsx-36a889131753d436 flex justify-center mt-6 animate-bounce
+text-neutral-600 hover:text-neutral-300 transition
+jsx-36a889131753d436 min-h-screen flex items-center py-20
+jsx-36a889131753d436 w-full fade-in
+jsx-36a889131753d436 text-center mb-16
+jsx-36a889131753d436 text-4xl md:text-5xl font-bold mb-4
+jsx-36a889131753d436 text-neutral-400 text-lg max-w-2xl mx-auto
+BunkerCoin operates on shortwave radio signals, creating a truly decentralized layer 1 blockchain that functions without internet infrastructure.
+jsx-36a889131753d436 grid md:grid-cols-2 gap-12 items-center
+jsx-36a889131753d436 space-y-8
+jsx-36a889131753d436 flex gap-4
+jsx-36a889131753d436 flex-shrink-0
+jsx-36a889131753d436 w-12 h-12 rounded-full bg-bunker/20 flex items-center justify-center
+jsx-36a889131753d436 text-xl font-semibold mb-2
+Radio Wave Propagation
+jsx-36a889131753d436 text-neutral-400
+Nodes communicate via shortwave radio with a range of 2,500-5,000 miles. Just 10-20 nodes can achieve global coverage.
+jsx-36a889131753d436 flex gap-4
+jsx-36a889131753d436 flex-shrink-0
+jsx-36a889131753d436 w-12 h-12 rounded-full bg-bunker/20 flex items-center justify-center
+jsx-36a889131753d436 text-xl font-semibold mb-2
+jsx-36a889131753d436 text-neutral-400
+While nodes communicate via radio, optional internet gateways allow regular users to interact with the chain using standard devices.
+jsx-36a889131753d436 flex gap-4
+jsx-36a889131753d436 flex-shrink-0
+jsx-36a889131753d436 w-12 h-12 rounded-full bg-bunker/20 flex items-center justify-center
+jsx-36a889131753d436 text-xl font-semibold mb-2
+True Decentralization
+jsx-36a889131753d436 text-neutral-400
+The pinnacle of decentralization—zero dependency on ISPs, cloud providers, or any centralized infrastructure. Your assets, truly yours.
+jsx-36a889131753d436 flex gap-4
+jsx-36a889131753d436 flex-shrink-0
+jsx-36a889131753d436 w-12 h-12 rounded-full bg-bunker/20 flex items-center justify-center
+jsx-36a889131753d436 text-xl font-semibold mb-2
+jsx-36a889131753d436 text-neutral-400
+Bridge assets from Solana and other chains. Once on BunkerCoin, they're protected from any internet-based failure, and stay usable in the event of a catastrophe.
+jsx-36a889131753d436 relative
+jsx-36a889131753d436 aspect-square rounded-lg overflow-hidden
+Radio Tower Blockchain Visualization
+jsx-36a889131753d436 w-full h-full object-cover
+jsx-36a889131753d436 min-h-screen flex items-center py-20
+jsx-36a889131753d436 w-full fade-in
+jsx-36a889131753d436 text-center mb-16
+jsx-36a889131753d436 text-4xl md:text-5xl font-bold mb-4
+jsx-36a889131753d436 text-neutral-400 text-lg max-w-2xl mx-auto
+When traditional infrastructure fails, BunkerCoin ensures your assets remain accessible—no matter the catastrophe.
+jsx-36a889131753d436 grid md:grid-cols-2 lg:grid-cols-3 gap-8
+jsx-36a889131753d436 bg-neutral-900/50 border border-neutral-800 rounded-lg p-6 hover:border-neutral-700 transition
+jsx-36a889131753d436 size-16 mb-4
+jsx-36a889131753d436 text-xl font-semibold mb-2
+jsx-36a889131753d436 text-neutral-400
+Hardened radio equipment can survive electromagnetic pulses that would destroy internet infrastructure.
+jsx-36a889131753d436 bg-neutral-900/50 border border-neutral-800 rounded-lg p-6 hover:border-neutral-700 transition
+Internet Blackout Protection
+jsx-36a889131753d436 size-16 mb-4
+jsx-36a889131753d436 text-xl font-semibold mb-2
+jsx-36a889131753d436 text-neutral-400
+Authoritarian shutdowns and censorship can't stop radio waves from crossing borders.
+jsx-36a889131753d436 bg-neutral-900/50 border border-neutral-800 rounded-lg p-6 hover:border-neutral-700 transition
+Natural Disaster Protection
+jsx-36a889131753d436 size-16 mb-4
+jsx-36a889131753d436 text-xl font-semibold mb-2
+jsx-36a889131753d436 text-neutral-400
+When cell towers fall and cables break, shortwave radio continues to function.
+jsx-36a889131753d436 mt-12 text-center
+jsx-36a889131753d436 text-lg text-neutral-300
+The resilience layer for when resilience matters most.
+jsx-36a889131753d436 py-20
+jsx-36a889131753d436 w-full fade-in
+jsx-36a889131753d436 max-w-4xl mx-auto
+jsx-36a889131753d436 text-center mb-6
+jsx-36a889131753d436 text-4xl md:text-5xl font-bold mb-6
+jsx-36a889131753d436 text-neutral-400 text-lg mb-4
+The concept of a blockchain operating on radio waves was originated by 
+jsx-36a889131753d436 text-white
+, Co-Founder of Solana. Since 2019, he's been sharing humorous thoughts about this idea, including a playful April Fools' 2024 technical abstract.
+jsx-36a889131753d436 text-neutral-400 text-sm mb-4
+text-bunker hover:text-bunker/80 transition inline-flex items-center gap-1
+View his posts here 
+jsx-36a889131753d436 bg-neutral-900/50 border border-neutral-800 rounded-lg p-8 mb-8
+jsx-36a889131753d436 grid grid-cols-2 md:grid-cols-3 gap-4
+jsx-36a889131753d436 h-32 flex items-center justify-center
+jsx-36a889131753d436 max-w-full max-h-full rounded-lg
+jsx-36a889131753d436 h-32 flex items-center justify-center
+jsx-36a889131753d436 max-w-full max-h-full rounded-lg
+jsx-36a889131753d436 h-32 flex items-center justify-center
+jsx-36a889131753d436 max-w-full max-h-full rounded-lg
+jsx-36a889131753d436 h-32 flex items-center justify-center
+Technical Abstract April Fools 2024
+jsx-36a889131753d436 max-w-full max-h-full rounded-lg
+jsx-36a889131753d436 h-32 flex items-center justify-center
+Toly quote repost about BunkerCoin
+jsx-36a889131753d436 max-w-full max-h-full rounded-lg
+jsx-36a889131753d436 h-32 flex items-center justify-center
+jsx-36a889131753d436 max-w-full max-h-full rounded-lg
+jsx-36a889131753d436 text-center text-sm text-neutral-500 mt-4
+A few excerpts from X
+jsx-36a889131753d436 text-center
+jsx-36a889131753d436 text-lg text-neutral-300
+jsx-36a889131753d436 text-bunker
+ you. And we'll turn the blockchain running on the ionosphere into reality!
+jsx-36a889131753d436 min-h-screen flex items-center py-20
+jsx-36a889131753d436 w-full fade-in
+jsx-36a889131753d436 grid md:grid-cols-2 gap-12 items-center
+jsx-36a889131753d436 order-2 md:order-1
+jsx-36a889131753d436 aspect-square rounded-lg overflow-hidden
+Open Source Community
+jsx-36a889131753d436 w-full h-full object-cover
+jsx-36a889131753d436 order-1 md:order-2
+jsx-36a889131753d436 text-4xl md:text-5xl font-bold mb-6
+Building in the Open
+jsx-36a889131753d436 text-neutral-400 text-lg mb-8
+BunkerCoin is committed to transparency and open-source development. Our code, our progress, and our community decisions are all public.
+jsx-36a889131753d436 space-y-6
+jsx-36a889131753d436 flex items-start gap-3
+w-5 h-5 text-bunker mt-1
+jsx-36a889131753d436 font-semibold mb-1
+jsx-36a889131753d436 text-neutral-400 text-sm
+All code is available on GitHub. Review, contribute, or fork.
+jsx-36a889131753d436 flex items-start gap-3
+w-5 h-5 text-bunker mt-1
+jsx-36a889131753d436 font-semibold mb-1
+Community-Driven Future
+jsx-36a889131753d436 text-neutral-400 text-sm
+Building towards decentralized governance where the community shapes our direction.
+jsx-36a889131753d436 flex items-start gap-3
+w-5 h-5 text-bunker mt-1
+jsx-36a889131753d436 font-semibold mb-1
+jsx-36a889131753d436 text-neutral-400 text-sm
+Writing our technical papers in public, sharing research as it develops.
+jsx-36a889131753d436 flex items-start gap-3
+w-5 h-5 text-bunker mt-1
+jsx-36a889131753d436 font-semibold mb-1
+Transparent Progress
+jsx-36a889131753d436 text-neutral-400 text-sm
+Live explorer, public roadmap, and regular community updates.
+jsx-36a889131753d436 mt-8
+inline-flex items-center gap-2 text-bunker hover:text-bunker/80 transition
+jsx-36a889131753d436 min-h-screen flex items-center py-20
+jsx-36a889131753d436 w-full fade-in
+jsx-36a889131753d436 text-center mb-16
+jsx-36a889131753d436 text-4xl md:text-5xl font-bold mb-4
+jsx-36a889131753d436 text-neutral-400 text-lg max-w-2xl mx-auto
+Multiple ways to participate in building humanity's resilience layer.
+jsx-36a889131753d436 grid md:grid-cols-3 gap-8
+jsx-36a889131753d436 text-center
+jsx-36a889131753d436 w-20 h-20 rounded-full bg-bunker/20 flex items-center justify-center mx-auto mb-4
+w-10 h-10 text-bunker
+jsx-36a889131753d436 text-xl font-semibold mb-2
+jsx-36a889131753d436 text-neutral-400 mb-4
+Operate radio hardware to strengthen the network and earn rewards.
+jsx-36a889131753d436 text-neutral-500 text-sm
+jsx-36a889131753d436 text-center
+jsx-36a889131753d436 w-20 h-20 rounded-full bg-bunker/20 flex items-center justify-center mx-auto mb-4
+w-10 h-10 text-bunker
+jsx-36a889131753d436 text-xl font-semibold mb-2
+jsx-36a889131753d436 text-neutral-400 mb-4
+Join our Discord to connect with contributors. Raise issues and open PRs on GitHub!
+jsx-36a889131753d436 flex flex-col gap-2 items-center
+text-bunker hover:text-bunker/80 transition
+text-bunker hover:text-bunker/80 transition text-sm
+jsx-36a889131753d436 text-center
+jsx-36a889131753d436 w-20 h-20 rounded-full bg-bunker/20 flex items-center justify-center mx-auto mb-4
+w-10 h-10 text-bunker
+jsx-36a889131753d436 text-xl font-semibold mb-2
+jsx-36a889131753d436 text-neutral-400 mb-4
+Participate in governance and help shape the future of resilience.
+text-bunker hover:text-bunker/80 transition
+jsx-36a889131753d436 flex justify-center py-16
+jsx-36a889131753d436 w-64 opacity-70 hover:opacity-100 transition-opacity
+text-sm text-neutral-600 mt-7
+BunkerCoin is a meme token created for entertainment and community engagement. It is not an investment opportunity, security, or real estate asset. Purchasing BunkerCoin involves high risk, including the potential total loss of your investment. Ownership of BunkerCoin does not grant rights to any property. BunkerCoin is the supporting community token of the Bunker ecosystem, rallying believers around the mission of building resilience. By purchasing BunkerCoin, you accept all associated risks and acknowledge its speculative nature.
+mt-4 z-10 w-full text-sm text-neutral-700 flex flex-col gap-y-3 md:gap-y-0 md:flex-row justify-around p-8
+flex justify-between pr-8 md:pr-0 *:underline md:*:no-underline md:justify-center gap-x-2
+fixed top-0 w-full flex flex-col backdrop-blur-md bg-black/5 z-[100]
+container mx-auto px-6 py-8 flex items-center justify-between
+hidden md:flex space-x-6
+bg-transparent hover:bg-neutral-50/10
+md:hidden border-t border-neutral-700 w-full h-screen pt-4
+px-4 py-2 flex flex-col space-y-2
+w-full text-left text-lg
+bg-destructive text-destructive-foreground hover:bg-destructive/90
+border border-input bg-background hover:bg-accent hover:text-accent-foreground
+bg-secondary text-secondary-foreground hover:bg-secondary/80
+hover:bg-accent hover:text-accent-foreground
+text-primary underline-offset-4 hover:underline
+h-11 rounded-md px-8

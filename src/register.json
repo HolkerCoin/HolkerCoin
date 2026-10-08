@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "records": [
+    { "id": "ca", "label": "Contract address", "state": "absent", "value": null, "url": null },
+    { "id": "x", "label": "X", "state": "absent", "value": null, "url": null },
+    { "id": "github", "label": "GitHub", "state": "absent", "value": null, "url": null }
+  ]
+}

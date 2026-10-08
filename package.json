@@ -1,0 +1,17 @@
+{
+  "name": "holker-coin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "gates": "node scripts/gates.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "@primer/octicons": "^19.40.0",
+    "node-html-parser": "^9.0.4",
+    "sharp": "^0.34.0",
+    "simple-icons": "^16.34.0"
+  }
+}

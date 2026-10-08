@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Holker Coin | Money that outlasts the outage</title>
+<meta name="description" content="Holker Coin is a Solana token with a bigger goal: a base-layer network meant to keep value moving through blackouts, bans and storms. Live chain data below.">
+<meta name="theme-color" content="{{BG}}">
+<meta property="og:title" content="Holker Coin">
+<meta property="og:description" content="Money that outlasts the outage. Live Solana data, built where you can watch.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://holker.xyz/">
+<meta property="og:image" content="https://holker.xyz/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/tokens.css">
+<link rel="stylesheet" href="/styles.css">
+<script src="/js/boot.js"></script>
+<script type="module" src="/js/main.js"></script>
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="chrome">
+  <div class="bar">
+    <div class="wrap bar-inner">
+      <a class="brand" href="#top" aria-label="Holker Coin, back to top">
+        <picture>
+          <source type="image/webp" srcset="/assets/mark-114.webp">
+          <img src="/assets/mark-114.png" width="57" height="32" alt="">
+        </picture>
+        <span class="brand-name">Holker Coin</span>
+      </a>
+      <div class="socials" role="group" aria-label="Social links">
+        {{SOCIAL_X}}
+        {{SOCIAL_GITHUB}}
+      </div>
+    </div>
+  </div>
+  {{CA_SLOT}}
+</header>
+
+<main id="top">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <div class="pill" id="status-pill" data-state="loading" role="status" aria-live="polite">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="pill-text" id="status-text">Reaching the Solana chain</span>
+      </div>
+      <h1 id="hero-title" class="display" data-reveal>Money that outlasts <span class="accent nowrap">the outage.</span></h1>
+      <p class="lede" data-reveal>Holker Coin is a bet that digital value should keep moving when the usual plumbing stops. We are building toward a base-layer network meant to keep settling through blackouts, bans and storms, and we are doing the work where you can see it.</p>
+      <div class="actions" data-reveal>
+        {{BUY_BUTTON}}
+        <a class="btn btn-ghost" href="#approach" data-spot>
+          <span>See how it holds up</span>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual" id="hero-visual" aria-hidden="true">
+      <div class="layer layer-glow" data-depth="0.15"></div>
+      <div class="layer layer-grid" data-depth="0.3"></div>
+      <svg class="layer layer-rings" data-depth="0.55" viewBox="0 0 400 400" focusable="false">
+        <circle class="ring r1" cx="200" cy="200" r="190"/>
+        <circle class="ring r2" cx="200" cy="200" r="145"/>
+        <circle class="ring r3" cx="200" cy="200" r="100"/>
+        <circle class="orb o1" cx="200" cy="10" r="5"/>
+        <circle class="orb o2" cx="345" cy="200" r="4"/>
+        <circle class="orb o3" cx="200" cy="300" r="3.5"/>
+      </svg>
+      <div class="layer layer-mark" data-depth="1">
+        <picture>
+          <source type="image/webp" srcset="/assets/mark-560.webp 1x, /assets/mark-1120.webp 2x">
+          <img src="/assets/mark-560.png" srcset="/assets/mark-560.png 1x, /assets/mark-1120.png 2x" width="560" height="317" alt="">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <div class="cue"><a href="#live" aria-label="Scroll to live data"><svg class="icon" viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+
+  <section id="live" class="section wrap" aria-labelledby="live-title">
+    <div class="section-head" data-reveal>
+      <h2 id="live-title" class="h2">On-chain pulse</h2>
+      <p class="sub">Every figure here is pulled from a public endpoint while you watch. If a source goes quiet you get a dash and the reason, never a number we made up.</p>
+    </div>
+
+    <div class="tiles" data-stagger>
+      <article class="tile" data-reveal data-spot data-state="loading" id="tile-height">
+        <h3 class="tile-label">Block height</h3>
+        <div class="tile-value"><span class="skel" aria-hidden="true"></span><span class="val mono" data-val aria-live="off">&mdash;</span></div>
+        <p class="tile-note" data-note>Confirmed commitment</p>
+      </article>
+      <article class="tile" data-reveal data-spot data-state="loading" id="tile-pairs">
+        <h3 class="tile-label">Solana pairs found</h3>
+        <div class="tile-value"><span class="skel" aria-hidden="true"></span><span class="val mono" data-val>&mdash;</span></div>
+        <p class="tile-note" data-note>Search: &ldquo;holker&rdquo;</p>
+      </article>
+      <article class="tile" data-reveal data-spot data-state="loading" id="tile-price">
+        <h3 class="tile-label">Top pair price</h3>
+        <div class="tile-value"><span class="skel" aria-hidden="true"></span><span class="val mono" data-val>&mdash;</span></div>
+        <p class="tile-note" data-note>Highest 24h volume</p>
+      </article>
+      <article class="tile" data-reveal data-spot data-state="loading" id="tile-volume">
+        <h3 class="tile-label">24h volume</h3>
+        <div class="tile-value"><span class="skel" aria-hidden="true"></span><span class="val mono" data-val>&mdash;</span></div>
+        <p class="tile-note" data-note>Across listed pairs</p>
+      </article>
+    </div>
+
+    <div class="marquee" id="marquee" data-state="loading" aria-label="Tokens from the pair search">
+      <div class="marquee-empty" data-empty>Loading pairs for the strip.</div>
+      <div class="marquee-track" data-track></div>
+    </div>
+
+    <div class="pairs" id="pairs" data-state="loading">
+      <div class="pairs-head" data-reveal>
+        <h3 class="h3" id="pairs-title">Trading pairs</h3>
+        <p class="notice">{{PAIRS_NOTICE}} <span id="pairs-extra" hidden>Nothing below is Holker: no Holker pair exists yet, so the board shows the Solana tokens with the most paid boosts on DexScreener until one does.</span></p>
+      </div>
+      <ul class="pair-list" data-list aria-live="polite">
+        <li class="pair pair-skel" aria-hidden="true"><span class="skel"></span></li>
+        <li class="pair pair-skel" aria-hidden="true"><span class="skel"></span></li>
+        <li class="pair pair-skel" aria-hidden="true"><span class="skel"></span></li>
+      </ul>
+      <p class="pairs-message" data-message hidden></p>
+    </div>
+  </section>
+
+  <section id="approach" class="section wrap" aria-labelledby="approach-title">
+    <div class="section-head" data-reveal>
+      <h2 id="approach-title" class="h2">How it holds together</h2>
+      <p class="sub">Easy to say, hard to build: keep a ledger useful on the days the everyday internet is not.</p>
+    </div>
+    <div class="split">
+      <ol class="steps" data-stagger>
+        <li class="step" data-reveal>
+          <span class="chip" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5M19.1 4.9C23 8.8 23 15.1 19.1 19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="2" fill="currentColor"/></svg></span>
+          <div><h3 class="h4">Many paths, one ledger</h3><p class="body">Messages can ride whichever link is still alive: long-range wireless, local meshes, plain broadband. No single carrier has to survive.</p></div>
+        </li>
+        <li class="step" data-reveal>
+          <span class="chip" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><path d="M4 14 13 3l-2 7h9l-9 11 2-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
+          <div><h3 class="h4">A door, not a cage</h3><p class="body">Everyday users get in through gateways on ordinary devices, while the core stays independent of any one provider.</p></div>
+        </li>
+        <li class="step" data-reveal>
+          <span class="chip" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><path d="M12 3 5 6v6c0 4.5 3 7.3 7 9 4-1.7 7-4.5 7-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+          <div><h3 class="h4">Nobody holds the off switch</h3><p class="body">No cloud account, no carrier contract, no single operator whose bad day turns into yours.</p></div>
+        </li>
+        <li class="step" data-reveal>
+          <span class="chip" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><rect x="3" y="14" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="15" y="14" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="9" y="3" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 14v-2h12v2M12 9v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+          <div><h3 class="h4">Start where the liquidity is</h3><p class="body">Holker begins on Solana, so holders get fast settlement today while the sturdier network is built behind it.</p></div>
+        </li>
+      </ol>
+      <div class="panel topo" data-reveal data-spot aria-hidden="true">
+        <svg viewBox="0 0 400 400" focusable="false" class="topo-svg">
+          <g class="links">
+            <line x1="200" y1="200" x2="200" y2="60"/><line x1="200" y1="200" x2="321" y2="130"/><line x1="200" y1="200" x2="321" y2="270"/>
+            <line x1="200" y1="200" x2="200" y2="340"/><line x1="200" y1="200" x2="79" y2="270"/><line x1="200" y1="200" x2="79" y2="130"/>
+            <line x1="200" y1="60" x2="321" y2="130"/><line x1="321" y1="270" x2="200" y2="340"/><line x1="79" y1="270" x2="79" y2="130"/>
+          </g>
+          <g class="nodes">
+            <circle cx="200" cy="60" r="9"/><circle cx="321" cy="130" r="9"/><circle cx="321" cy="270" r="9"/>
+            <circle cx="200" cy="340" r="9"/><circle cx="79" cy="270" r="9"/><circle cx="79" cy="130" r="9"/>
+            <circle class="core" cx="200" cy="200" r="18"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section id="scenarios" class="section wrap" aria-labelledby="scenarios-title">
+    <div class="section-head" data-reveal>
+      <h2 id="scenarios-title" class="h2">Where it earns its keep</h2>
+      <p class="sub">Plans look great until the thing they lean on disappears. These are the days we are designing for.</p>
+    </div>
+    <div class="cards" data-stagger>
+      <article class="card" data-reveal data-spot>
+        <span class="chip chip-lg" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><path d="M4 14 13 3l-2 7h9l-9 11 2-7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
+        <h3 class="h4">Grid failures</h3>
+        <p class="body">Substations trip and whole regions go dark. Equipment built to ride that out keeps the ledger reachable while the lights are off.</p>
+      </article>
+      <article class="card" data-reveal data-spot>
+        <span class="chip chip-lg" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><path d="M2 8.8a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M3 3l18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="19.5" r="1.2" fill="currentColor"/></svg></span>
+        <h3 class="h4">Switched-off networks</h3>
+        <p class="body">When a government or carrier pulls the plug, your balance should not become a hostage to their decision.</p>
+      </article>
+      <article class="card" data-reveal data-spot>
+        <span class="chip chip-lg" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><path d="M6 16a4 4 0 0 1-.5-7.9A6 6 0 0 1 17 7a4.5 4.5 0 0 1 1 8.9M13 11l-3 5h4l-3 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <h3 class="h4">Storm season</h3>
+        <p class="body">Floods take out cables, wind takes out towers. Value should still be spendable after the weather has done its worst.</p>
+      </article>
+    </div>
+    <p class="closer" data-reveal>Resilience is cheap to promise and expensive to build. We would rather show the work.</p>
+  </section>
+
+  <section id="open" class="section wrap" aria-labelledby="open-title">
+    <div class="split split-flip">
+      <div class="panel mark-panel" data-reveal data-spot aria-hidden="true">
+        <picture>
+          <source type="image/webp" srcset="/assets/mark-560.webp 1x, /assets/mark-1120.webp 2x">
+          <img src="/assets/mark-560.png" srcset="/assets/mark-560.png 1x, /assets/mark-1120.png 2x" width="560" height="317" alt="" loading="lazy">
+        </picture>
+      </div>
+      <div>
+        <h2 id="open-title" class="h2" data-reveal>Built where you can watch</h2>
+        <p class="sub left" data-reveal>Code, research and design choices are meant to be public from day one, not unveiled after the fact.</p>
+        <ul class="facts" data-stagger>
+          <li class="fact" data-reveal><span class="tick" aria-hidden="true"></span><div><h3 class="h5">Open code</h3><p class="small">Review it, question it, fork it.</p></div></li>
+          <li class="fact" data-reveal><span class="tick" aria-hidden="true"></span><div><h3 class="h5">Notes as we go</h3><p class="small">Research is shared while it is still rough.</p></div></li>
+          <li class="fact" data-reveal><span class="tick" aria-hidden="true"></span><div><h3 class="h5">Choices with reasons</h3><p class="small">When direction changes, the why is written down.</p></div></li>
+          <li class="fact" data-reveal><span class="tick" aria-hidden="true"></span><div><h3 class="h5">Plain status</h3><p class="small">What exists, what does not yet, and which is which.</p></div></li>
+        </ul>
+        <div class="actions" data-reveal>{{GITHUB_CTA}}</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join" class="section wrap" aria-labelledby="join-title">
+    <div class="section-head" data-reveal>
+      <h2 id="join-title" class="h2">Pick your way in</h2>
+      <p class="sub">Three routes in, from lightest to heaviest.</p>
+    </div>
+    <div class="cards" data-stagger>
+      <article class="card card-center" data-reveal data-spot>
+        <span class="chip chip-xl" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><path d="M12 3v18M3 12h18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+        <h3 class="h4">Hold and spread</h3>
+        <p class="body">Check the pinned token address, ignore look-alikes, and tell one friend who would care.</p>
+        <span class="status">Open now</span>
+      </article>
+      <article class="card card-center" data-reveal data-spot>
+        <span class="chip chip-xl" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <h3 class="h4">Contribute</h3>
+        <p class="body">Review designs, file issues, send patches. Channels open once the repository is published.</p>
+        <span class="status">Opens with the repo</span>
+      </article>
+      <article class="card card-center" data-reveal data-spot>
+        <span class="chip chip-xl" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="2" fill="currentColor"/><path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9M19.1 4.9C23 8.8 23 15.1 19.1 19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+        <h3 class="h4">Run infrastructure</h3>
+        <p class="body">Operators with the right hardware will hold the base layer up. Specifics follow once the design settles.</p>
+        <span class="status">Later</span>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div class="foot-brand">
+      <picture>
+        <source type="image/webp" srcset="/assets/mark-114.webp">
+        <img src="/assets/mark-114.png" width="57" height="32" alt="" loading="lazy">
+      </picture>
+      <span>Holker Coin &middot; holker.xyz</span>
+    </div>
+    <p class="fine">Holker Coin is a Solana token. Nothing on this page is financial advice. Live figures come from third-party sources that can be late or wrong, so verify before you act.</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+<script type="application/json" id="register">{{REGISTER_JSON}}</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "id": "ca",
+      "label": "Contract address",
+      "state": "stated",
+      "value": "FwEH9GP2iHWJehinGq4tLZsETttN43wEomubts83zsTr",
+      "url": null
+    },
+    {
+      "id": "x",
+      "label": "X",
+      "state": "stated",
+      "value": null,
+      "url": "https://x.com/holker_fixture"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "state": "stated",
+      "value": null,
+      "url": "https://github.com/holker-fixture"
+    }
+  ]
+}
